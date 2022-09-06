@@ -1,0 +1,89 @@
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+}
+
+.selector{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content ul li a{
+    text-decoration: none;
+    padding: 5px 10px !important;
+    margin: 10px !important;
+    border-radius: 20px;
+    background-color: #feeee7; 
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content ul li a:hover{
+    background-color: var(--main-color);
+    color: white;
+    
+}
+.content ul li .active{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .card{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.container .card .content{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    background-color: #feeee7;
+    border-radius: 10px;
+}
+
+.container .card .content h3{
+
+}
+.container .card .content .img{
+    width: 100%;
+    height: 95%;
+}
+.container .card .content img{
+    width: 100%;
+    height: 95%;
+}
+.container .card .content a{
+    padding: 5px 10px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
